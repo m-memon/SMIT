@@ -1,0 +1,490 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <title>Lecture-1 HTML5</title>
+</head>
+
+<body>
+    <h1>Introduction to HTML5</h1>
+    <Select onchange="location = this.value;">
+        <option selected disabled>Notes</option>
+        <option value="#1">What is the full form of HTML?</option>
+        <option value="#2">What is HyperText Markup Language?</option>
+        <option value="#3">Folder Structure Explanation</option>
+        <option value="#4">What are Tags?</option>
+        <option value="#5">What are Elements?</option>
+        <option value="#6">Types of Tags</option>
+        <option value="#7">What is an Opening Tag?</option>
+        <option value="#8">What is a Closing Tag?</option>
+        <option value="#9">What is a Self-Closing Tag?</option>
+        <option value="#10">Difference Between Self-Closing Tag & Opening/Closing Tag
+        </option>
+        <option value="#11">What is &lt;html&gt; Element Tag?</option>
+        <option value="#12">What is &lt;head&gt; Element Tag?</option>
+        <option value="#13">What is &lt;title&gt; Element Tag?</option>
+        <option value="#14">What is &lt;body&gt; Element Tag?</option>
+        <option value="#15">What are &lt;h1&gt; to &lt;h6&gt; Element Tags?</option>
+        <option value="#16">What is &lt;p&gt; Element Tag?</option>
+        <option value="#17">What is &lt;a&gt; Element Tag?</option>
+    </Select>
+    <dl>
+        <dt id="1">
+            <hr />
+            <h3>• What is the full form of HTML?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>HTML</b> stands for <b>HyperText Markup Language</b>, which is used to create
+                        webpages.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>HTML</b> ka pura naam <b>HyperText Markup Language</b> hai, jo webpages banane ke
+                        liye use hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!-- An example of HTML structure --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My First Webpage&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="2">
+            <hr />
+            <h3>• What is HyperText Markup Language?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>HTML</b> is the standard language for creating webpages and web applications,
+                        structuring content with tags.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>HTML</b> webpages aur web applications banane ke liye standard zaban hai, jo content
+                        ko tags ke zariye structure karti hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;HTML Example&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;This is a paragraph in HTML.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="3">
+            <hr />
+            <h3>• Folder Structure Explanation:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>Folder structure</b> refers to how files and directories are organized in a project,
+                        often with separate <b>folders</b> for <b>HTML</b>, <b>CSS</b>, <b>JS</b>, and <b>images</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Folder structure</b> se muraad hai ke kis tarah files aur directories ko project mein
+                        organize kiya jata hai, jisme <b>HTML</b>, <b>CSS</b>, <b>JS</b> aur <b>images</b> ke liye alag
+                        <b>folders</b> hote hain.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>/project
+    /index.html
+    /styles.css
+    /script.js
+    /images
+        /logo.png</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="4">
+            <hr />
+            <h3>• What are Tags?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Tags are special keywords in HTML used to define content elements, enclosed in angle
+                        brackets <b>&lt; &gt;</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Tags HTML mein khas keywords hote hain jo content elements ko define karte hain, jo
+                        angle brackets <b>&lt; &gt;</b> mein likhe jate hain.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;This is a paragraph tag.&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="5">
+            <hr />
+            <h3>• What are Elements?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>An <b>element</b> is a combination of an opening tag, content, and a closing tag, like
+                        <b>&lt;p&gt;This is a paragraph&lt;/p&gt;</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Element</b> ek combination hota hai opening tag, content, aur closing tag ka, jaise
+                        <b>&lt;p&gt;This is a paragraph&lt;/p&gt;</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;This is a paragraph element.&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="6">
+            <hr />
+            <h3>• Types of Tags:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Tags can be either <b>block-level tags</b> <b>(e.g., &lt;div&gt;, &lt;p&gt;)</b> or
+                        <b>inline tags</b>
+                        <blockquote>(e.g., &lt;span&gt;, &lt;a&gt;)</blockquote>b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Tags ya to <b>block-level tags</b> ho sakte hain <b>(jaise &lt;div&gt;, &lt;p&gt;)</b>
+                        ya <b>inline tags</b> <b>(jaise &lt;span&gt;, &lt;a&gt;)</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;This is a block-level tag.&lt;/p&gt;
+&lt;span&gt;This is an inline tag.&lt;/span&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="7">
+            <hr />
+            <h3>• What is an Opening Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>An <b>opening tag</b> marks the start of an HTML element, such as <b>&lt;h1&gt;</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Opening tag</b> HTML element ke shuru hone ka indication deta hai, jaise
+                        <b>&lt;h1&gt;</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;h1&gt;This is an opening tag.&lt;/h1&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="8">
+            <hr />
+            <h3>• What is a Closing Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>A <b>closing tag</b> indicates the end of an HTML element, like <b>&lt;/h1&gt;</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Closing tag</b> HTML element ke end hone ka indication deta hai, jaise
+                        <b>&lt;/h1&gt;</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;h1&gt;This is a closing tag example.&lt;/h1&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="9">
+            <hr />
+            <h3>• What is a Self-Closing Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>Self-closing</b> tags don’t require a closing counterpart, such as <b>&lt;img&gt;</b>
+                        or <b>&lt;br&gt;</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Self-closing</b> tags ko closing tag ki zaroorat nahi hoti, jaise <b>&lt;img&gt;</b>
+                        ya <b>&lt;br&gt;</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;img src="image.jpg" alt="Image"&gt;
+&lt;br&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="10">
+            <hr />
+            <h3>• Difference Between Self-Closing Tag & Opening/Closing Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>A <b>self-closing tag</b> doesn’t have a separate <b>closing tag</b>, while
+                        <b>opening/closing tags</b> have both.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Self-closing</b> tag ka apna <b></b>closing tag</b> nahi hota, jabke
+                        <b>opening/closing tag</b> mein dono hote hain.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!-- Self-closing tag --&gt;
+&lt;img src="image.jpg" alt="Image"&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="11">
+            <hr />
+            <h3>• What is &lt;html&gt; Element Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;html&gt;</b> tag defines the root of an HTML document, enclosing all other
+                        HTML elements.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;html&gt;</b> tag HTML document ka root define karta hai, jo baaki HTML elements
+                        ko enclose karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;Page Title&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;&lt;h1&gt;Hello World&lt;/h1&gt;&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="12">
+            <hr />
+            <h3>• What is &lt;head&gt; Element Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;head&gt;</b> tag contains meta-information about the document like title,
+                        character encoding, etc.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;head&gt;</b> tag document ki meta-information rakhta hai, jaise title, character
+                        encoding, waghera.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;head&gt;
+    &lt;title&gt;My Webpage&lt;/title&gt;
+    &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="13">
+            <hr />
+            <h3>• What is &lt;title&gt; Element Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;title&gt;</b> tag specifies the title of the webpage, shown in the
+                        <b>browser’s title bar or tab</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;title&gt;</b> tag webpage ka title specify karta hai, jo browser ke title bar ya
+                        tab mein dikhayi deta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;title&gt;My Awesome Webpage&lt;/title&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="14">
+            <hr />
+            <h3>• What is &lt;body&gt; Element Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;body&gt;</b> tag contains the main content of the webpage that is visible to
+                        the user.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;body&gt;</b> tag webpage ka main content rakhta hai jo user ko dikhayi deta hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;body&gt;
+    &lt;h1&gt;Welcome to my website!&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph inside the body tag.&lt;/p&gt;
+&lt;/body&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="15">
+            <hr />
+            <h3>• What are &lt;h1&gt; to &lt;h6&gt; Element Tags?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>These tags represent different levels of headings, with <b>&lt;h1&gt;</b> being the most
+                        important and <b>&lt;h6&gt;</b> the least.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Yeh tags headings ke different levels ko represent karte hain, jisme <b>&lt;h1&gt;</b>
+                        sabse zaroori hota hai aur <b>&lt;h6&gt;</b> sabse kam.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Sub Heading&lt;/h2&gt;
+&lt;h3&gt;Smaller Heading&lt;/h3&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="16">
+            <hr />
+            <h3>• What is &lt;p&gt; Element Tag?:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;p&gt;</b> tag is used to define paragraphs in HTML.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;p&gt;</b> tag HTML mein paragraphs ko define karne ke liye use hota hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;This is a paragraph tag.&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="17">
+            <hr />
+            <h3>• What is &lt;a&gt; Element Tag?</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;a&gt;</b> tag defines a hyperlink, allowing users to click and navigate to
+                        another page.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;a&gt;</b> tag ek hyperlink define karta hai, jo users ko click karke doosri page
+                        pe le jata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+</body>
+
+</html>
