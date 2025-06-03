@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: #487eb0;
+    text-decoration: underline;
+}
+
+table {
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+    border: 1px solid #999;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.white {
+    background-color: #ffffff;
+}
