@@ -1,0 +1,578 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <title>Lecture-3 HTML5</title>
+</head>
+
+<body>
+    <h1>HTML5 Elements Overview</h1>
+    <select onchange="location = this.value;">
+        <option selected disabled>Notes</option>
+        <option value="#1">Shift + 1: HTML5 Structure Shortcut</option>
+        <option value="#2">&lt;sup&gt; Element Tag</option>
+        <option value="#3">&lt;sub&gt; Element Tag</option>
+        <option value="#4">HTML5 Ignores Extra Spaces</option>
+        <option value="#5">&lt;hr /&gt; Element Tag</option>
+        <option value="#6">&lt;br /&gt; Element Tag</option>
+        <option value="#7">Semantic Element Tags in HTML5</option>
+        <option value="#8">&lt;strong&gt; Element Tag</option>
+        <option value="#9">&lt;em&gt; Element Tag</option>
+        <option value="#10">&lt;blockquote&gt; Tag</option>
+        <option value="#11">&lt;q&gt; Element Tag</option>
+        <option value="#12">cite Attribute of &lt;blockquote&gt; Element Tag in HTML5</option>
+        <option value="#13">&lt;abbr&gt; Element Tag in HTML5</option>
+        <option value="#14">title Attribute of &lt;abbr&gt; Element Tag in HTML5</option>
+        <option value="#15">&lt;cite&gt; Element Tag in HTML5</option>
+        <option value="#16">&lt;dfn&gt; Element Tag in HTML5</option>
+        <option value="#17">&lt;address&gt; Element Tag in HTML5</option>
+        <option value="#18">&lt;ins&gt; Element Tag in HTML5</option>
+        <option value="#19">&lt;del&gt; Element Tag in HTML5</option>
+        <option value="#20">&lt;s&gt; Element Tag in HTML5</option>
+    </select>
+    <dl>
+        <dt id="1">
+            <hr />
+            <h3>• Shift + 1: HTML5 Structure Shortcut:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>This shortcut generates a basic <b>HTML5</b> boilerplate structure, including
+                        &lt;!DOCTYPE
+                        html&gt;, &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Yeh shortcut ek bunyadi <b>HTML5</b> structure generate karta hai, jis mein &lt;!DOCTYPE
+                        html&gt;, &lt;html&gt;, &lt;head&gt;, aur &lt;body&gt; tags shamil hotay hain.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;!-- Content goes here --&gt;
+        &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="2">
+            <hr />
+            <h3>• &lt;sup&gt; Element Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;sup&gt;</b> tag is used to display text as superscript, commonly for
+                        exponents or ordinal numbers.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;sup&gt;</b> tag ka istemal text ko superscript ke tor par dikhane ke liye hota
+                        hai, jo aam tor par exponents ya ordinal numbers ke liye use hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;E = mc&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="3">
+            <hr />
+            <h3>• &lt;sub&gt; Element Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;sub&gt;</b> tag is used to display text as subscript, often for chemical
+                        formulas or footnotes.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>
+                        <blockquote>&lt;sub&gt;</blockquote>b> tag ka istemal text ko subscript ke tor par dikhane ke
+                        liye hota hai,
+                        jo aam tor par chemical formulas ya footnotes ke liye use hota hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="4">
+            <hr />
+            <h3>• HTML5 Ignores Extra Spaces:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>HTML5</b> collapses multiple consecutive spaces into a single space when rendering
+                        content.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>HTML5</b> content render karte waqt mutadid consecutive spaces ko ek single space
+                        mein tabdeel kar deta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;This    is    spaced    text.&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="5">
+            <hr />
+            <h3>• &lt;hr /&gt; Element Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;hr /&gt;</b> tag represents a thematic break or <b>horizontal rule</b>, often
+                        used to separate content sections.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;hr /&gt;</b> tag ek thematic break ya <b>horizontal rule</b> ko represent karta
+                        hai, jo aam tor par content sections ko separate karne ke liye use hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;hr /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="6">
+            <hr />
+            <h3>• &lt;br /&gt; Element Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;br /&gt;</b> tag inserts a <b>line break</b> within text, useful for poems or
+                        addresses.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;br /&gt;</b> tag text ke andar <b>line break</b> insert karta hai, jo poems ya
+                        addresses ke liye mufeed hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    Line one.
+    &lt;br /&gt;
+    Line two.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="7">
+            <hr />
+            <h3>• Semantic Element Tags in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>Semantic elements</b> like &lt;article&gt;, &lt;section&gt;, and &lt;nav&gt; provide
+                        meaning to the content, improving accessibility and SEO.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Semantic elements</b> jaise &lt;article&gt;, &lt;section&gt;, aur &lt;nav&gt; content
+                        ko meaning dete hain, jo accessibility aur SEO ko behtar banata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;article&gt;
+    &lt;h2&gt;Article Title&lt;/h2&gt;
+    &lt;p&gt;Content of the article.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="8">
+            <hr />
+            <h3>• &lt;strong&gt; Element Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;strong&gt;</b> tag indicates that its contents have <b>strong importance</b>,
+                        typically rendered in bold.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;strong&gt;</b> tag is baat ko indicate karta hai ke iske andar ka content
+                        <b>bohat zaroori</b>
+                        hai, jo aam tor par bold mein render hota hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    &lt;strong&gt;
+        Warning:
+    &lt;/strong&gt; This is important.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="9">
+            <hr />
+            <h3>• &lt;em&gt; Element Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;em&gt;</b> tag represents text with <b>emphasis</b>, usually rendered in
+                        italics.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;em&gt</b>; tag text ko <b>emphasis</b> dene ke liye use hota hai, jo aam tor par
+                        italics mein render hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    &lt;em&gt;
+        Note:
+    &lt;/em&gt; This is emphasized text.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="10">
+            <hr />
+            <h3>• &lt;blockquote&gt; Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;blockquote&gt;</b> tag is used for <b>extended quotations</b>, typically
+                        indented.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;blockquote&gt;</b> tag <b>lambi quotations</b> ke liye use hota hai, jo aam tor
+                        par indented hoti hain.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;blockquote cite="https://example.com"&gt;
+    &lt;p&gt;Extended quotation text.&lt;/p&gt;
+&lt;/blockquote&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="11">
+            <hr />
+            <h3>• &lt;q&gt; Element Tag:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;q&gt;</b> tag represents <b>inline quotations</b>, usually enclosed in
+                        <b>quotation marks</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;q&gt;</b> tag <b>inline quotations</b> ke liye use hota hai, jo aam tor par
+                        <b>quotation marks</b> mein enclosed hota hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    &lt;q&gt;
+        Inline quoted text.
+    &lt;/q&gt;
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="12">
+            <hr />
+            <h3>• cite Attribute of &lt;blockquote&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Specifies the <b>source URL</b> of the quoted content.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Quoted content ka <b>source URL</b> specify karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;blockquote cite="https://www.example.com/article"&gt;
+    This is a quoted paragraph.
+&lt;/blockquote&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="13">
+            <hr />
+            <h3>• &lt;abbr&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Defines an <b>abbreviation</b> or <b>acronym</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Kisi mukhtasir <b>lafz</b> ya <b>acronym</b> ko define karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    &lt;abbr title="World Health Organization"&gt;
+        WHO
+    &lt;/abbr&gt; is an agency of the United Nations.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="14">
+            <hr />
+            <h3>• title Attribute of &lt;abbr&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Provides the full form or explanation of the <b>abbreviation when hovered</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Mouse le jaane par abbreviation ka full form</b> ya tafseel dikhata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="15">
+            <hr />
+            <h3>• &lt;cite&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Used to reference the title of a creative work like a book, article, or song.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Kisi kitaab, article ya song jese creative kaam ka title reference dene ke liye use hota
+                        hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    &lt;cite&gt;
+        The Great Gatsby
+    &lt;/cite&gt; is a novel by F. Scott Fitzgerald.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="16">
+            <hr />
+            <h3>• &lt;dfn&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Specifies the <b>defining instance</b> of a term.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Kisi lafz ya term ka <b>pehli martaba definition</b> dene ke liye use hota hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    &lt;dfn&gt;
+        CPU
+    &lt;/dfn&gt; stands for Central Processing Unit.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="17">
+            <hr />
+            <h3>• &lt;address&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Defines <b>contact information</b> for the author or owner of a document.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Document ke author ya owner ki <b>contact information</b> dikhane ke liye use hota hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;address&gt;
+    Contact: John Doe
+    Email: john@example.com
+&lt;/address&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="18">
+            <hr />
+            <h3>• &lt;ins&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Represents text that has been <b>inserted</b> into a document.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Document mein naye <b>shamil</b> kiye gaye text ko dikhata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    This is an
+    &lt;ins&gt;
+        inserted
+    &lt;/ins&gt; word.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="19">
+            <hr />
+            <h3>• &lt;del&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Indicates text that has been <b>deleted</b> from a document.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Woh text dikhata hai jo document se <b>delete</b> kiya gaya ho.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    This is a
+    &lt;del&gt;
+        deleted
+    &lt;/del&gt; word.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="20">
+            <hr />
+            <h3>• &lt;s&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Shows text that is no longer accurate or relevant, typically rendered with a
+                        <b>strikethrough</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Aisa text dikhata hai jo ab ghalat ya purana ho, usually <b>strikethrough</b> ke sath.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    The old price was
+    &lt;s&gt;
+        $50
+    &lt;/s&gt;, now it's $30.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+</body>
+
+</html>
