@@ -6,73 +6,354 @@
 </head>
 
 <body>
-    <h1>Lecture-3</h1>
+    <h1>HTML5 Layout Elements</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">Inline elements in HTML5</option>
+        <option value="#2">Block level elements in HTML5</option>
+        <option value="#3">&lt;pre&gt; element tag in HTML5</option>
+        <option value="#4">&lt;u&gt; element tag in HTML5</option>
+        <option value="#5">&lt;ul&gt; element tag in HTML5</option>
+        <option value="#6">&lt;ol&gt; element tag in HTML5</option>
+        <option value="#7">&lt;li&gt; element tag of &lt;ul&gt; or &lt;ol&gt; element tag in
+            HTML5</option>
+        <option value="#8">type attribute in HTML5</option>
+        <option value="#9">start attribute of &lt;ol&gt; element tag in HTML5</option>
+        <option value="#10">reversed attribute of &lt;ol&gt; element tag in HTML5</option>
+        <option value="#11">&lt;dl&gt; element tag in HTML5</option>
+        <option value="#12">&lt;dt&gt; element tag of &lt;dl&gt; element tag in HTML5</option>
+        <option value="#13">&lt;dd&gt; element tag of &lt;dl&gt; element tag in HTML5</option>
     </select>
     <dl>
-        <dt>
+        <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• Inline elements in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Inline elements</b> do not start on a new line and only take up as much width as
+                        necessary.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Inline elements</b> nayi line se start nahi hotay aur sirf jitni jagah zaroori ho
+                        utni hi lete hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;span&gt;This is inline text.&lt;/span&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
-        <dt>
+        <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• Block level elements in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Block elements</b> start on a new line and take up the full width available.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Block elements</b> nayi line se shuru hotay hain aur poori available width le lete
+                        hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;div&gt;This is a block-level element.&lt;/div&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
-        <dt>
+        <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;pre&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;pre&gt;</b> tag displays preformatted text with spaces and line breaks
+                        preserved.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;pre&gt;</b> tag aise text ko dikhata hai jisme spaces aur line breaks jese hain
+                        waise hi nazar aate hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;pre&gt;
+Line 1
+    Line 2
+        Line 3
+&lt;/pre&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="4">
+            <hr />
+            <h3>• &lt;u&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;u&gt;</b> tag <b>underlines</b> the text it contains.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;u&gt;</b> tag text ko <b>underline</b> karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;p&gt;
+    This is
+    &lt;u&gt;
+        underlined
+    &lt;/u&gt; text.
+&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="5">
+            <hr />
+            <h3>• &lt;ul&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;ul&gt;</b> tag defines an <b>unordered (bulleted) list</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;ul&gt;</b> tag aik <b>unordered ya bulleted list</b> banata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ul&gt;
+    &lt;li&gt;Apple&lt;/li&gt;
+    &lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="6">
+            <hr />
+            <h3>• &lt;ol&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;ol&gt;</b> tag defines an <b>ordered (numbered) list</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;ol&gt;</b> tag aik <b>ordered ya numbered list</b> banata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ol&gt;
+    &lt;li&gt;First&lt;/li&gt;
+    &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="7">
+            <hr />
+            <h3>• &lt;li&gt; element tag of &lt;ul&gt; or &lt;ol&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;li&gt;</b> tag defines a <b>list item</b> inside &lt;ul&gt; or &lt;ol&gt;.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;li&gt;</b> tag <b>list ke items</b> ko define karta hai &lt;ul&gt; ya &lt;ol&gt;
+                        ke andar.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="8">
+            <hr />
+            <h3>• type attribute in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>type</b> attribute defines the style of <b>bullets or numbers in lists</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>type</b> attribute <b>bullets ya numbers</b> ke style ko set karta hai list mein.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ol type="A"&gt;
+    &lt;li&gt;Option A&lt;/li&gt;
+    &lt;li&gt;Option B&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="9">
+            <hr />
+            <h3>• start attribute of &lt;ol&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>start</b> attribute specifies the <b>starting number</b> of an ordered list.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>start</b> attribute ordered list ka <b>starting number</b> set karta hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ol start="5"&gt;
+    &lt;li&gt;Five&lt;/li&gt;
+    &lt;li&gt;Six&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="10">
+            <hr />
+            <h3>• reversed attribute of &lt;ol&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>reversed attribute</b> displays the ordered list in <b>descending order</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>reversed attribute</b> ordered list ko ulta ya <b>descending order</b> mein dikhata
+                        hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ol reversed&gt;
+    &lt;li&gt;Three&lt;/li&gt;
+    &lt;li&gt;Two&lt;/li&gt;
+    &lt;li&gt;One&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="11">
+            <hr />
+            <h3>• &lt;dl&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;dl&gt;</b> tag defines a <b>description list</b> of terms and definitions.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;dl&gt;</b> tag terms aur unki <b>definitions ka list</b> banata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+    &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="12">
+            <hr />
+            <h3>• &lt;dt&gt; element tag of &lt;dl&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;dt&gt;</b> tag <b>defines a term</b> in a description list.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;dt&gt;</b> tag ek <b>term ko define karta hai</b> description list mein.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;dt&gt;CSS&lt;/dt&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="13">
+            <hr />
+            <h3>• &lt;dd&gt; element tag of &lt;dl&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;dd&gt;</b> tag <b>describes the term</b> listed by &lt;dt&gt;.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;dd&gt;</b> tag us term ki <b>tafseel batata hai</b> jo &lt;dt&gt; mein likhi hoti
+                        hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;dd&gt;Cascading Style Sheets&lt;/dd&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
