@@ -6,183 +6,386 @@
 </head>
 
 <body>
-    <h1>Lecture-7</h1>
+    <h1>HTML5 Links & Images</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">index.html is used as the default file in HTML5</option>
+        <option value="#2">../ syntax is used for linking in HTML5</option>
+        <option value="#3">&lt;img&gt; element tag in HTML5</option>
+        <option value="#4">src attribute of &lt;img&gt; element tag in HTML5</option>
+        <option value="#5">href WhatsApp link in HTML5</option>
+        <option value="#6">href mailto link in HTML5</option>
+        <option value="#7">href tel link in HTML5</option>
+        <option value="#8">Image common formats supported in &lt;img&gt; element tag of HTML5
+        </option>
+        <option value="#9">height attribute of &lt;img&gt; element tag in HTML5</option>
+        <option value="#10">width attribute of &lt;img&gt; element tag in HTML5</option>
+        <option value="#11">title attribute of &lt;img&gt; element tag in HTML5</option>
+        <option value="#12">alt attribute of &lt;img&gt; element tag in HTML5</option>
+        <option value="#13">&lt;figure&gt; element tag of HTML5</option>
+        <option value="#14">&lt;figcaption&gt; element tag in &lt;figure&gt; element tag of HTML5</option>
     </select>
     <dl>
         <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• index.html is used as the default file in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>index.html</b> file is the default or starting page of a website in HTML5. When
+                        users visit a website without specifying a page, the <b>server automatically looks for this
+                            file and loads it</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>index.html</b> file website ka default ya starting page hota hai HTML5 mein. Jab
+                        users website pe bina kisi specific page ke visit karte hain, to <b>server is file ko
+                            automatically search kar ke load karta hai</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!-- index.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Home Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to Our Website!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• ../ syntax is used for linking in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>../</b> syntax is used to link to a <b>directory above the current directory</b>.
+                        It helps navigate the file structure of a website when linking to resources or files located in
+                        <b>parent directories</b>.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>../</b> syntax ko parent <b>directory ya upar ke folder mein link karne ke liye</b>
+                        use kiya jata hai. Yeh website ke file structure ko navigate karne mein madad karta hai jab
+                        resources ya files parent directories mein hoti hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;a href="../about.html"&gt;About Us&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;img&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;img&gt;</b> tag is <b>used to embed images in a web page</b>. It does not
+                        have a closing tag and requires attributes like src and alt.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;img&gt;</b> tag is <b>used to embed images in a web page</b>. It does not
+                        have a closing tag and requires attributes like src and alt.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;img src="image.jpg" alt="A beautiful scenery"&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="4">
             <hr />
-            <h3>• :</h3>
+            <h3>• src attribute of &lt;img&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>src</b> attribute of the &lt;img&gt; tag specifies the <b>path or URL of the
+                            image</b> to be displayed.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>&lt;img&gt; tag ka <b>src</b> attribute <b>image ki location ya URL specify karta
+                            hai</b> jo display karni hoti hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;img src="image.jpg" alt="A beautiful beach"&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="5">
             <hr />
-            <h3>• :</h3>
+            <h3>• href WhatsApp link in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>href</b> attribute is used to create a <b>link that directs the user to
+                            WhatsApp</b>, enabling them to chat with a phone number.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>href attribute ko <b>WhatsApp link banane ke liye use kiya jata hai</b>, jisme user ko
+                        ek phone number se chat karne ka option milta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;a href="https://wa.me/03*********" target="_blank"&gt;Chat with us on WhatsApp&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="6">
             <hr />
-            <h3>• :</h3>
+            <h3>• href mailto link in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>mailto</b>: link <b>opens the default email client</b> and allows users to send
+                        an email to a specific address.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>mailto</b>: link default <b>email client ko open karta hai</b> aur user ko ek
+                        specific email address par email bhejne ka option deta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;a href="mailto:someone@example.com"&gt;Send an Email&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="7">
             <hr />
-            <h3>• :</h3>
+            <h3>• href tel link in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>tel</b>: link <b>opens the phone's dialer</b>, allowing users to call a specific
+                        phone number.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>tel</b>: link <b>phone ke dialer ko open karta hai</b> aur user ko specific phone
+                        number par call karne ka option deta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;a href="tel:03*********"&gt;Call Us&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="8">
             <hr />
-            <h3>• :</h3>
+            <h3>• Image common formats supported in &lt;img&gt; element tag of HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML5 <b>&lt;img&gt;</b> element supports common image formats like <b>.jpg</b>,
+                        <b>.jpeg</b>, <b>.png</b>, <b>.gif</b>, and <b>.svg</b>.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML5 <b>&lt;img&gt;</b> element mein common image formats jaise <b>.jpg</b>,
+                        <b>.jpeg</b>, <b>.png</b>, <b>.gif</b>, aur <b>.svg</b> support hote hain.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;img src="image.jpg" alt="Image in JPEG format"&gt;
+&lt;img src="image.png" alt="Image in PNG format"&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="9">
+            <hr />
+            <h3>• height attribute of &lt;img&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>height</b> attribute is used to define the <b>height of an image</b> in the
+                        &lt;img&gt; tag. The value is specified in <b>pixels or other units</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>height</b> attribute &lt;img&gt; tag mein <b>image ki height ko define karta hai</b>.
+                        Iska <b>value pixels ya doosre units mein hota hai</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;img src="image.jpg" alt="Image" height="200"&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="10">
+            <hr />
+            <h3>• width attribute of &lt;img&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>width</b> attribute is used to define the <b>width of an image</b> in the
+                        &lt;img&gt; tag. Like the height attribute, the value can be in <b>pixels or other units</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>width</b> attribute &lt;img&gt; tag mein <b>image ki width ko define karta hai</b>.
+                        Jaise height attribute, iska value bhi <b>pixels ya doosre units mein hota hai</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;img src="image.jpg" alt="Image" width="300"&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="11">
+            <hr />
+            <h3>• title attribute of &lt;img&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>title</b> attribute provides additional information about the image. It appears
+                        <b>when the user hovers over the image</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>title</b> attribute image ke baare mein additional information provide karta hai. Yeh
+                        tab appear hota hai <b>jab user image par hover karta hai</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;img src="image.jpg" alt="Image" title="This is a beautiful landscape"&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="12">
+            <hr />
+            <h3>• alt attribute of &lt;img&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>alt</b>> attribute describes the content of an image. It is displayed if the
+                        <b>image cannot be loaded</b> or for accessibility purposes (screen readers).
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>alt</b> attribute image ke content ko describe karta hai. <b>Agar image load nahi
+                            hoti</b>b> ya accessibility ke liye (screen readers) yeh text display hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;img src="image.jpg" alt="A beautiful sunset over the ocean"&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="13">
+            <hr />
+            <h3>• &lt;figure&gt; element tag of HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;figure&gt;</b> tag is used to group content like images, diagrams, or
+                        illustrations along with their captions.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;figure&gt;</b> tag ko images, diagrams ya illustrations ko unki captions ke sath
+                        group karne ke liye use kiya jata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;figure&gt;
+    &lt;img src="image.jpg" alt="Scenery"&gt;
+    &lt;figcaption&gt;Beautiful view of the mountains&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="14">
+            <hr />
+            <h3>• &lt;figcaption&gt; element tag in &lt;figure&gt; element tag of HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;figcaption&gt;</b> tag is used to provide a caption or description for the
+                        content within a &lt;figure&gt; element.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;figcaption&gt;</b> tag &lt;figure&gt; element ke andar content ke liye caption ya
+                        description dene ke liye use hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;figure&gt;
+    &lt;img src="image.jpg" alt="Image of a park"&gt;
+    &lt;figcaption&gt;This is a beautiful park in the city&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
