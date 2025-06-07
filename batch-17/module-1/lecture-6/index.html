@@ -6,73 +6,231 @@
 </head>
 
 <body>
-    <h1>Lecture-6</h1>
+    <h1>HTML5 Linking & Elements</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+            <option value="#1">There are Two Types of Linking in HTML5</option>
+            <option value="#2">Relative Linking in HTML5</option>
+            <option value="#3">Absolute Linking in HTML5</option>
+            <option value="#4">There are Two Types of Elements in HTML5</option>
+            <option value="#5">Block-Level Elements in HTML5</option>
+            <option value="#6">Inline Elements in HTML5</option>
+            <option value="#7">target Attribute of &lt;a&gt; Element Tag in HTML5</option>
+            <option value="#8">./ Syntax Used for Linking in HTML5</option>
     </select>
     <dl>
-        <dt>
+        <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• There are Two Types of Linking in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>In HTML5, linking can be done in two main ways: <b>relative linking</b> and <b>absolute
+                            linking</b>. These methods are used to <b>link web pages, files</b>, and resources.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML5 mein linking do tareeqon se ki ja sakti hai: <b>relative linking</b> aur
+                        <b>absolute linking</b>. In tareeqon ka use <b>web pages, files</b>, aur resources ko link karne
+                        ke liye hota hai.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!-- Relative Linking --&gt;
+&lt;a href="contact.html"&gt;Contact Us&lt;/a&gt;
+
+&lt;!-- Absolute Linking --&gt;
+&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
-        <dt>
+        <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• Relative Linking in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Relative linking</b> refers to linking files based on the <b>current file's
+                            directory</b>. It doesn’t require the full URL, only the <b>path relative to the current
+                            file</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Relative linking</b> ka matlab hai files ko <b>current file ke directory</b> ke
+                        hisaab se link karna. Ismein poora URL ki zaroorat nahi hoti, <b>sirf current file ke hisaab se
+                            path diya jata hai</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;a href="about.html"&gt;About Us&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
-        <dt>
+        <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• Absolute Linking in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Absolute linking</b> uses the full URL <b>(including the protocol like
+                            HTTP/HTTPS)</b> to link to <b>external websites</b> or resources.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Absolute linking</b> mein poora URL use hota hai, jo ke <b>external websites</b> ya
+                        resources ko link karta hai. Ismein protocol <b>(jaise HTTP ya HTTPS)</b> bhi shamil hota hai.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="4">
+            <hr />
+            <h3>• There are Two Types of Elements in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>In HTML5, elements are categorized into two types: <b>block-level elements</b> and
+                        <b>inline elements</b>. <b>Block-level elements</b> start on a new line, while <b>inline
+                            elements</b> do not.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>HTML5 mein elements ko do qisam mein divide kiya jata hai: <b>block-level elements</b>
+                        aur <b>inline elements</b>. <b>Block-level</b> elements nayi line se shuru hote hain, jabke
+                        <b>inline elements</b> same line mein rehte hain.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!-- Block-level element --&gt;
+&lt;div&gt;This is a block-level element&lt;/div&gt;
+
+&lt;!-- Inline element --&gt;
+&lt;span&gt;This is an inline element&lt;/span&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="5">
+            <hr />
+            <h3>• Block-Level Elements in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>Block-level</b> elements in HTML5 occupy the full width of their container and start
+                        on a new line. Examples include &lt;div&gt;, &lt;p&gt;, and &lt;h1&gt;.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Block-level</b> elements HTML5 mein apne container ki puri width lete hain aur naye
+                        line par start hote hain. Iske examples mein &lt;div&gt;, &lt;p&gt;, aur &lt;h1&gt; shamil hain.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;div&gt;This is a block-level element&lt;/div&gt;
+&lt;p&gt;This is a paragraph, which is also a block-level element.&lt;/p&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="6">
+            <hr />
+            <h3>• Inline Elements in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>Inline elements</b> only take up as much width as needed and do not cause a new line.
+                        Examples include &lt;span&gt;, &lt;a&gt;, and &lt;strong&gt;.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Inline elements</b> HTML5 mein sirf utni width lete hain jitni unhe zaroorat hoti hai
+                        aur nayi line create nahi karte. Iske examples mein &lt;span&gt;, &lt;a&gt;, aur &lt;strong&gt;
+                        aate hain.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;span&gt;This is an inline element&lt;/span&gt;
+&lt;a href="https://www.example.com"&gt;Click Here&lt;/a&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="7">
+            <hr />
+            <h3>• target Attribute of &lt;a&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>target</b> attribute in the &lt;a&gt; tag specifies where to open the linked
+                        document. Common values include _blank (opens in a new window) and _self (opens in the same
+                        window).</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>target</b> attribute &lt;a&gt; tag mein specify karta hai ke linked document kaha
+                        open hoga. Aam values mein _blank (naye window mein open hota hai) aur _self (same window mein
+                        open hota hai) shamil hain.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;a href="https://www.example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="8">
+            <hr />
+            <h3>• ./ Syntax Used for Linking in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>./</b> syntax in HTML5 is used to link to a file in the <b>current directory</b>.
+                        It indicates a relative <b>path from the current location</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>HTML5 mein <b>./</b> syntax <b>current directory</b> mein maujood file ko link karne ke
+                        liye use hota hai. Ye <b>current location se relative path</b> indicate karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;a href="./about.html"&gt;About Us&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
