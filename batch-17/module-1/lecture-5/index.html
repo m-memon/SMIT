@@ -6,73 +6,231 @@
 </head>
 
 <body>
-    <h1>Lecture-5</h1>
+    <h1>HTML5 List Structures</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">There are Three Types of Lists</option>
+        <option value="#2">Type Attributes of Unordered List in HTML5</option>
+        <option value="#3">Type Attributes of Ordered List in HTML5</option>
+        <option value="#4">Do Nested Lists Work</option>
+        <option value="#5">Structure of Nested List</option>
+        <option value="#6">&lt;a&gt; Element Tag in HTML5</option>
+        <option value="#7">href Attribute of &lt;a&gt; Element Tag in HTML5</option>
     </select>
     <dl>
-        <dt>
+        <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• There are Three Types of Lists:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>In HTML, there are three main types of lists: <B>Unordered lists (with bullet
+                            points)</b>, <b>ordered lists (with numbers)</b>, and <b>description lists (for defining
+                            terms)</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML mein teen tareeqay ke lists hotay hain: <b>Unordered lists (bullet points ke
+                            saath)</b>, <b>ordered lists (numbers ke saath)</b>, aur <b>description lists (terms ko
+                            define karne ke liye)</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!-- Unordered List --&gt;
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Ordered List --&gt;
+&lt;ol&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+  &lt;li&gt;Third&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- Description List --&gt;
+&lt;dl&gt;
+  &lt;dt&gt;HTML&lt;/dt&gt;
+  &lt;dd&gt;Hypertext Markup Language&lt;/dd&gt;
+  &lt;dt&gt;CSS&lt;/dt&gt;
+  &lt;dd&gt;Cascading Style Sheets&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
-        <dt>
+        <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• Type Attributes of Unordered List in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The &lt;ul&gt; tag in HTML creates an unordered list. The <b>type</b> attribute can be
+                        used to <b>specify the style of bullets</b>, such as circles or squares.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML mein &lt;ul&gt; tag se unordered list banai jaati hai. <b>type</b> attribute ka
+                        istemal <b>bullets ka style specify karne ke liye hota hai</b>, jaise ke circles ya squares.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;ul type="circle"&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
-        <dt>
+        <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• Type Attributes of Ordered List in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The &lt;ol&gt; tag is used for ordered lists, where list items are numbered. The
+                        <b>type</b> attribute can be used to <b>change the numbering style</b>, such as Roman numerals
+                        or letters.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML mein &lt;ol&gt; tag ordered list ke liye use hota hai, jahan list items numbers ke
+                        saath hotay hain. <b>type</b> attribute ka istemal <b>numbering style ko change karne ke liye
+                            hota hai</b>, jaise Roman numerals ya letters.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;ol type="A"&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="4">
+            <hr />
+            <h3>• Do Nested Lists Work:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Yes, <b>nested lists</b> work in HTML. You can place one list inside another to create
+                        complex, hierarchical structures.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Haan, <b>nested lists</b> HTML mein kaam karti hain. Aap ek list ke andar doosri list
+                        daal kar complex aur hierarchical structures bana sakte hain.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ul&gt;
+  &lt;li&gt;Main Item 1
+    &lt;ul&gt;
+      &lt;li&gt;Sub Item A&lt;/li&gt;
+      &lt;li&gt;Sub Item B&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Main Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="5">
+            <hr />
+            <h3>• Structure of Nested List:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>A <b>nested list</b> is a list inside another list. It’s created by placing a <b>list
+                            (&lt;ul&gt; or &lt;ol&gt;) inside a list item (&lt;li&gt;) of another list</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>Nested list</b> ek list hoti hai jo doosri list ke andar hoti hai. Isay ek <b>list
+                            (&lt;ul&gt; ya &lt;ol&gt;) ko doosri list ke &lt;li&gt; item ke andar rakh kar banaya jaata
+                            hai</b>.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;ol&gt;
+  &lt;li&gt;Item 1
+    &lt;ul&gt;
+      &lt;li&gt;Sub-item A&lt;/li&gt;
+      &lt;li&gt;Sub-item B&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="6">
+            <hr />
+            <h3>• &lt;a&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;a&gt;</b> tag in HTML is <b>used to create hyperlinks</b>, which allow
+                        navigation to other pages, files, or resources.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>HTML mein <b>&lt;a&gt;</b> tag <b>hyperlinks banane ke liye use hota hai</b>, jo aapko
+                        doosri pages, files, ya resources tak le jaate hain.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="7">
+            <hr />
+            <h3>• href Attribute of &lt;a&gt; Element Tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>href</b> attribute in the &lt;a&gt; tag specifies the URL or path where the link
+                        points to. It stands for "<b>Hypertext Reference.</b>"</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>href</b> attribute &lt;a&gt; tag mein URL ya path specify karta hai jahan link point
+                        karta hai. Ye "<b>Hypertext Reference</b>" ka short form hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;a href="https://www.example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
