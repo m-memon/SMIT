@@ -6,183 +6,473 @@
 </head>
 
 <body>
-    <h1>Lecture-8</h1>
+    <h1>HTML5 Table Elements</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">Align attribute of &lt;img&gt; element tag in HTML5</option>
+        <option value="#2">href Attributes of &lt;a&gt; element tag in HTML5</option>
+        <option value="#3">id selector attribute in HTML5</option>
+        <option value="#4">How to target id selector in HTML5</option>
+        <option value="#5">&lt;table&gt; element tag in HTML5</option>
+        <option value="#6">&lt;thead&gt; Element Tag of &lt;table&gt; Element Tag in HTML5
+        </option>
+        <option value="#7">&lt;tbody&gt; Element Tag of &lt;table&gt; Element Tag in HTML5
+        </option>
+        <option value="#8">&lt;tfoot&gt; Element Tag of &lt;table&gt; Element Tag in HTML5
+        </option>
+        <option value="#9">&lt;tr&gt; Element Tag of &lt;tbody&gt; Element Tag of
+            &lt;table&gt; in HTML5</option>
+        <option value="#10">&lt;th&gt; Element Tag of &lt;tr&gt; Element Tag of &lt;tbody&gt;
+            Element Tag of &lt;table&gt; in HTML5</option>
+        <option value="#11">&lt;td&gt; Element Tag of &lt;tr&gt; Element Tag of &lt;tbody&gt;
+            Element Tag of &lt;table&gt; in HTML5</option>
+        <option value="#12">cellpadding attribute of &lt;table&gt; element tag in HTML5
+        </option>
+        <option value="#13">cellspacing attribute of &lt;table&gt; element tag in HTML5
+        </option>
+        <option value="#14">border attribute of &lt;table&gt; element tag in HTML5</option>
     </select>
     <dl>
         <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• Align attribute of &lt;img&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>align</b> attribute was used in older HTML versions to control the alignment of
+                        images on a webpage. However, in HTML5, it’s deprecated, and CSS should be used for image
+                        alignment instead.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>align</b> attribute purani HTML versions mein image ke alignment ko control karta
+                        tha. Lekin HTML5 mein yeh deprecated ho gaya hai aur ab image ki alignment CSS ke zariye ki jati
+                        hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!-- Deprecated in HTML5 --&gt;
+&lt;img src="image.jpg" align="left"&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• href Attributes of &lt;a&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>href</b> attribute is used to specify the destination URL for the anchor
+                        (&lt;a&gt;) tag. This allows users to click the link and <b>navigate to the given URL</b>.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>href attribute anchor (&lt;a&gt;) tag mein destination URL ko specify karta hai. Yeh
+                        user ko link par click karne par us <b>URL par navigate karne ka moka deta hai</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• id selector attribute in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>id</b> attribute in HTML is used to assign a <b>unique identifier</b> to an HTML
+                        element. This <b>identifier</b> must be unique within the document, meaning no two elements
+                        should have the same <b>id</b>. This allows easy navigation and targeting of the element within
+                        the same page.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>id</b> attribute HTML mein kisi element ko <b>unique identifier</b> dene ke liye use
+                        hota hai. Yeh <b>identifier</b> page mein sirf ek hi element ke liye hona chahiye, matlab do
+                        elements ka same <b>id</b> nahi ho sakta. Yeh element ko easily target karne aur navigate karne
+                        mein madad karta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;p id="intro"&gt;Welcome to my website!&lt;/p&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="4">
             <hr />
-            <h3>• :</h3>
+            <h3>• How to target id selector in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>In HTML, you can target an element using its <b>id</b> by creating a hyperlink
+                        (&lt;a&gt; tag) with an href attribute that refers to the <b>id</b>. <b>To navigate to the
+                            element</b>, simply use <b>#</b> followed by the <b>id</b> value in the href attribute.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML mein aap <b>id</b> ke zariye element ko target karne ke liye &lt;a&gt; tag ka use
+                        karte hain. href attribute mein <b>id</b> ke naam ke saath <b>#</b> symbol lagana hota hai. Is
+                        se aap us element tak navigate kar sakte hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!-- Link to navigate to the element with id="intro" --&gt;
+&lt;a href="#intro"&gt;Go to Intro Section&lt;/a&gt;
+
+&lt;!-- Target element --&gt;
+&lt;p id="intro"&gt;This is the introduction section.&lt;/p&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="5">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;table&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;table&gt;</b> element is used to represent tabular data. It consists of rows
+                        and columns, which are defined by <b>&lt;tr&gt;</b>, <b>&lt;td&gt;</b>, and other
+                        <b>table-related elements</b>.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;table&gt;</b> element tabular data ko represent karne ke liye use hota hai. Yeh
+                        rows aur columns par mabni hota hai jo ke <b>&lt;tr&gt;</b>, <b>&lt;td&gt;</b>, aur doosray
+                        <b>table-related elements</b> se define kiye jate hain.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Row 1, Column 1&lt;/td&gt;
+    &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="6">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;thead&gt; Element Tag of &lt;table&gt; Element Tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;thead&gt;</b> tag is used to group the header content in a table. It helps in
+                        organizing the table structure and is often used for styling.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;thead&gt;</b> tag table mein header content ko group karne ke liye use hota hai.
+                        Yeh table ki structure ko organize karne mein madad karta hai aur styling ke liye bhi use hota
+                        hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Header 1&lt;/th&gt;
+      &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;/table&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="7">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;tbody&gt; Element Tag of &lt;table&gt; Element Tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;tbody&gt;</b> tag is used to group the body content in a table. It is often
+                        used in combination with &lt;thead&gt; and &lt;tfoot&gt; for better structure and styling.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;tbody&gt;</b> tag table ke body content ko group karne ke liye use hota hai. Yeh
+                        aksar &lt;thead&gt; aur &lt;tfoot&gt; ke saath milkar table ki structure ko behtar banata hai.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Header 1&lt;/th&gt;
+      &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 1, Column 1&lt;/td&gt;
+      &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="8">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;tfoot&gt; Element Tag of &lt;table&gt; Element Tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The &lt;tfoot&gt; element is used to group the footer content in a table. It typically
+                        contains summary information or total rows for the table, and is placed after the &lt;thead&gt;
+                        and &lt;tbody&gt; sections for better structure.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>&lt;tfoot&gt; element table ke footer content ko group karne ke liye use hota hai. Yeh
+                        aam tor par summary information ya total rows ko show karta hai, aur yeh &lt;thead&gt; aur
+                        &lt;tbody&gt; ke baad rakha jata hai taake table ki structure behtar ho.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Header 1&lt;/th&gt;
+      &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 1, Column 1&lt;/td&gt;
+      &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 2, Column 1&lt;/td&gt;
+      &lt;td&gt;Row 2, Column 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+      &lt;td&gt;2 Rows&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="9">
+            <hr />
+            <h3>• &lt;tr&gt; Element Tag of &lt;tbody&gt; Element Tag of &lt;table&gt; in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;tr&gt;</b> tag is used to define a <b>row in a table</b>. It can contain one
+                        or more &lt;td&gt; (table data) or &lt;th&gt; (table header) elements.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;tr&gt;</b> tag <b>table mein ek row define karne ke liye use hota hai</b>. Is
+                        mein ek ya zyada &lt;td&gt; (table data) ya &lt;th&gt; (table header) elements ho sakte hain.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Row 1, Column 1&lt;/td&gt;
+    &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="10">
+            <hr />
+            <h3>• &lt;th&gt; Element Tag of &lt;tr&gt; Element Tag of &lt;tbody&gt; Element Tag of &lt;table&gt; in
+                HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;th&gt;</b> tag is used to define a <b>header cell in a table</b>. By default,
+                        the text inside &lt;th&gt; is bold and centered.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;th&gt;</b> tag <b>table mein header cell define karne ke liye use hota hai</b>.
+                        By default, &lt;th&gt; ke andar ka text bold aur centered hota hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Header 1&lt;/th&gt;
+    &lt;th&gt;Header 2&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="11">
+            <hr />
+            <h3>• &lt;td&gt; Element Tag of &lt;tr&gt; Element Tag of &lt;tbody&gt; Element Tag of &lt;table&gt; in
+                HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>&lt;td&gt;</b> tag is used to define a <b>standard cell in a table</b>. It is
+                        placed inside a &lt;tr&gt; tag and holds the data for that specific row and column.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>&lt;td&gt;</b> tag <b>table mein standard cell define karne ke liye use hota hai</b>.
+                        Yeh &lt;tr&gt; tag ke andar rakha jata hai aur us specific row aur column ka data hold karta
+                        hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Row 1, Column 1&lt;/td&gt;
+    &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="12">
+            <hr />
+            <h3>• cellpadding attribute of &lt;table&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>cellpadding</b> attribute defines the <b>space between the content of a cell and
+                            its borders</b>. In HTML5, CSS should be used instead of this attribute.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>cellpadding</b> attribute <b>cell ke content aur borders ke beech ka space define
+                            karta hai</b>. HTML5 mein ab is attribute ki jagah CSS ka use karna chahiye.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!-- Deprecated in HTML5 --&gt;
+&lt;table cellpadding="10"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Content&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="13">
+            <hr />
+            <h3>• cellspacing attribute of &lt;table&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>cellspacing</b> attribute controls the <b>space between cells in a table</b>.
+                        Like cellpadding, this attribute is also deprecated in HTML5 in favor of CSS.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>cellspacing</b> attribute <b>table ke cells ke beech ka space control karta hai</b>.
+                        Yeh attribute bhi cellpadding ki tarah HTML5 mein deprecated ho gaya hai aur CSS ki taraf shift
+                        ho gaya hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!-- Deprecated in HTML5 --&gt;
+&lt;table cellspacing="10"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cell 1&lt;/td&gt;
+    &lt;td&gt;Cell 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="14">
+            <hr />
+            <h3>• border attribute of &lt;table&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>border</b> attribute was used to <b>define the border width of a table</b>. It is
+                        also deprecated in HTML5 and should be replaced by CSS.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>border</b> attribute <b>table ke border ki width define karta tha</b>. Yeh bhi HTML5
+                        mein deprecated ho gaya hai aur ab iski jagah CSS ka use karna chahiye.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;!-- Deprecated in HTML5 --&gt;
+&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cell 1&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
