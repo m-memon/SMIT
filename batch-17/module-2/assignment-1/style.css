@@ -1,0 +1,49 @@
+div {
+    margin: 20px auto;
+    height: 92vh;
+    width: 92vw;
+    border: 1px solid #718093;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: separate;
+    overflow: hidden;
+    border-radius: 10px;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    margin: 20px auto;
+}
+
+td {
+    justify-content: start;
+    font-size: 100%;
+}
+
+tr {
+    height: 25%;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+tr:nth-child(even),
+tr:nth-child(odd):hover {
+    background-color: #dcdde1;
+}
+
+
+
+tr:nth-child(odd),
+tr:nth-child(even):hover {
+    background-color: #f5f6fa;
+}
+
+tr:hover {
+    outline: 1px solid #718093;
+    outline-offset: -2px;
+}
+
+.No {
+    font-weight: 1000;
+}
