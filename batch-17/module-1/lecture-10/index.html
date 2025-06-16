@@ -6,183 +6,412 @@
 </head>
 
 <body>
-    <h1>Lecture-10</h1>
+    <h1>Forms and Deployment</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">What is Domain</option>
+        <option value="#2">What is Hosting</option>
+        <option value="#3">How to deploy a project on Netlify</option>
+        <option value="#4">How to deploy a project on GitHub</option>
+        <option value="#5">&lt;form&gt; element tag in HTML5</option>
+        <option value="#6">&lt;label&gt; element tag of &lt;form&gt; in HTML5</option>
+        <option value="#7">&lt;input /&gt; element tag of &lt;form&gt; in HTML5</option>
+        <option value="#8">action attribute of &lt;form&gt; in HTML5</option>
+        <option value="#9">type attribute of &lt;input /&gt; in &lt;form&gt;</option>
+        <option value="#10">maxlength attribute of &lt;input /&gt; in &lt;form&gt;</option>
+        <option value="#11">name attribute of &lt;input /&gt; in &lt;form&gt;</option>
+        <option value="#12">Group &lt;input /&gt; in &lt;form&gt;</option>
+        <option value="#13">required attribute of &lt;input /&gt; in &lt;form&gt;</option>
+        <option value="#14">accept attribute of &lt;input /&gt; in &lt;form&gt;</option>
+        <option value="#15">for attribute of &lt;label&gt; in &lt;form&gt;</option>
+        <option value="#16">value attribute of &lt;input /&gt; in &lt;form&gt;</option>
     </select>
     <dl>
         <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• What is Domain:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>A <b>domain</b> is the <b>human-readable address of a website</b>, like example.com.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Domain website ka human-readable address hota hai</b>, jaise example.com.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>*(Domains don’t use code, but for explanation:)*
+https://www.example.com</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• What is Hosting:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Hosting</b> is a <b>service that stores your website files</b> and makes them
+                        accessible on the internet.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Hosting</b> ek <b>service hai jo website ke files ko store karti hai</b> aur internet
+                        par access dene ke qabil banati hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>*(No code example; concept-based)*
+Use platforms like: Hostinger, Bluehost, Netlify</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• How to deploy a project on Netlify:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Deploy</b> your project by <b>uploading the build folder</b> or connecting your
+                        <b>GitHub repository to Netlify</b>.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Apna project <b>deploy</b> karne ke liye <b>build folder upload</b> karein ya <b>GitHub
+                            repository ko Netlify se connect karein</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>1. Create account on https://www.netlify.com  
+2. Click "Add New Site" → Import from Git  
+3. Select repository → Configure → Deploy</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="4">
             <hr />
-            <h3>• :</h3>
+            <h3>• How to deploy a project on GitHub:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Upload your project to a GitHub repository and enable GitHub Pages from repository
+                        settings.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Apne project ko GitHub par upload karein aur GitHub Pages ko settings se enable karein.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>1. git init  
+2. git remote add origin &lt;repo-url&gt;  
+3. git push -u origin main  
+4. Settings → Pages → Select branch → Save</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="5">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Defines a section of the document that contains interactive controls to submit user
+                        input.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Yeh document ka woh hissa define karta hai jahan user input dena aur submit karna mumkin
+                        hota hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form action="/submit"&gt;
+    &lt;input type="text" name="name" /&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="6">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;label&gt; element tag of &lt;form&gt; in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Defines a <b>label</b> for an input element, improving accessibility and form clarity.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Yeh input element ke liye <b>label</b> provide karta hai, jo accessibility aur clarity
+                        improve karta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;label for="email"&gt;Email:&lt;/label&gt;
+&lt;input id="email" type="email" /&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="7">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;input /&gt; element tag of &lt;form&gt; in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Used to create various types of user <b>input</b> fields within a form.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Form ke andar mukhtalif qisam ke <b>input</b> fields banane ke liye use hota hai.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;input type="text" name="username" /&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="8">
             <hr />
-            <h3>• :</h3>
+            <h3>• action attribute of &lt;form&gt; in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Specifies where to send the form data when submitted.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>Yeh batata hai ke form data submit hone ke baad kahan bhejna hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form action="/submit-data"&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="9">
+            <hr />
+            <h3>• type attribute of &lt;input /&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Specifies the <b>type of input</b> like <b>text</b>, <b>password</b>, <b>email</b>,
+                        etc.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Yeh <b>input ka type</b> define karta hai jaise <b>text</b>, <b>password</b>, ya
+                        <b>email</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;input type="password" /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="10">
+            <hr />
+            <h3>• maxlength attribute of &lt;input /&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Limits the number of characters allowed in the input field.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Input field mein kitne characters allow hain, iski limit set karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;input type="text" maxlength="10" /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="11">
+            <hr />
+            <h3>• name attribute of &lt;input /&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Specifies the <b>name of the input</b> for identifying form data on submission.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Form submit hone par <b>input ki pehchan ke liye iska naam</b> set karta hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;input name="username" /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="12">
+            <hr />
+            <h3>• Group &lt;input /&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>You can <b>group related input</b> fields like radio buttons <b>using the same name</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Aap <b>related input fields ko group kar sakte hain</b>, jaise radio buttons mein
+                        <b>same name dena</b>.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;input type="radio" name="gender" value="male" /&gt;
+&lt;input type="radio" name="gender" value="female" /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="13">
+            <hr />
+            <h3>• required attribute of &lt;input /&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Forces the user to fill out the input field before submitting the form.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>User ko form submit karne se pehle field ko fill karna zaroori banata hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;input type="email" required /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="14">
+            <hr />
+            <h3>• accept attribute of &lt;input /&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Specifies the <b>types of files</b> that the server accepts when file input is used.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Jab file upload ki jaye to server kaunse <b>file types accept karega</b>, yeh define
+                        karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;input type="file" accept=".jpg, .png" /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="15">
+            <hr />
+            <h3>• for attribute of &lt;label&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Links the label to a specific input field using its id.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Label ko kisi input field ke id se link karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;label for="username"&gt;Username:&lt;/label&gt;
+&lt;input id="username" type="text" /&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="16">
+            <hr />
+            <h3>• value attribute of &lt;input /&gt; in &lt;form&gt;:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>Specifies the <b>default value</b> for the input field.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote>Input field ka <b>default value</b> set karta hai.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;input type="text" value="John Doe" /&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
