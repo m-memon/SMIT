@@ -6,183 +6,283 @@
 </head>
 
 <body>
-    <h1>Lecture-11</h1>
+    <h1>Form Element Basics</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">&lt;select&gt; element tag of &lt;form&gt; element tag in HTML5
+        </option>
+        <option value="#2">name attribute in &lt;select&gt; element tag of &lt;form&gt;
+            element tag in HTML5</option>
+        <option value="#3">&lt;option&gt; element tag in &lt;select&gt; element tag of
+            &lt;form&gt; in HTML5</option>
+        <option value="#4">method attribute of &lt;form&gt; element tag in HTML5</option>
+        <option value="#5">placeholder attribute in &lt;input /&gt; element tag of
+            &lt;form&gt; element tag in HTML5</option>
+        <option value="#6">&lt;center&gt; element tag in HTML5</option>
+        <option value="#7">&lt;fieldset&gt; element tag in HTML5</option>
+        <option value="#8">&lt;legend&gt; element tag of &lt;fieldset&gt; element tag in
+            HTML5</option>
     </select>
     <dl>
         <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;select&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;select&gt;</b> tag is <b>used to create a dropdown list</b> of options within
+                        a form. It allows users to choose one or more options from the list.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;select&gt;</b> tag form mein ek <b>dropdown list banata hai</b> jisme users ko
+                        multiple ya ek option choose karne ki sahulat milti hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form&gt;
+    &lt;label for="cars"&gt;
+        Choose a car:
+    &lt;/label&gt;
+    &lt;select id="cars" name="cars"&gt;
+        &lt;option value="volvo"&gt;
+            Volvo
+        &lt;/option&gt;
+        &lt;option value="saab"&gt;
+            Saab
+        &lt;/option&gt;
+        &lt;option value="mercedes"&gt;
+            Mercedes
+        &lt;/option&gt;
+        &lt;option value="audi"&gt;
+            Audi
+        &lt;/option&gt;
+    &lt;/select&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• name attribute in &lt;select&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>name</b> attribute <b>specifies the name for the dropdown</b>. It is used to
+                        reference form data after submitting the form.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>name</b> attribute <b>dropdown ki ek pehchaan (identifier) deta hai</b>, jise form
+                        submit hone par data reference ke liye use kiya jata hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form&gt;
+    &lt;select name="carModel"&gt;
+        &lt;option value="volvo"&gt;
+            Volvo
+        &lt;/option&gt;
+        &lt;option value="saab"&gt;
+            Saab
+        &lt;/option&gt;
+        &lt;option value="mercedes"&gt;
+            Mercedes
+        &lt;/option&gt;
+    &lt;/select&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;option&gt; element tag in &lt;select&gt; element tag of &lt;form&gt; in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;option&gt;</b> tag is used to <b>define options inside the &lt;select&gt;
+                            dropdown</b>. Each <b>&lt;option&gt;</b> element defines a single option for the user to
+                        select.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;option&gt; tag &lt;select&gt; dropdown ke andar alag-alag options define karta
+                            hai</b>, jisme har <b>&lt;option&gt;</b> ek option ko represent karta hai jo user choose kar
+                        sakta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;select name="fruit"&gt;
+    &lt;option value="apple"&gt;
+        Apple
+    &lt;/option&gt;
+    &lt;option value="banana"&gt;
+        Banana
+    &lt;/option&gt;
+    &lt;option value="cherry"&gt;
+        Cherry
+    &lt;/option&gt;
+&lt;/select&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="4">
             <hr />
-            <h3>• :</h3>
+            <h3>• method attribute of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>method</b> attribute <b>specifies how to send form data</b>. The two common
+                        methods are GET (appends data to the URL) and POST (sends data as the body of the request).
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>method</b> attribute <b>yeh batata hai ke form ka data kaise bhejna hai</b>. Do aam
+                        methods hain: GET (jo data ko URL mein append karta hai) aur POST (jo data ko request ke body
+                        mein bhejta hai).</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form action="/submit" method="POST"&gt;
+    &lt;input type="text" name="username"&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="5">
             <hr />
-            <h3>• :</h3>
+            <h3>• placeholder attribute in &lt;input /&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>placeholder</b> attribute <b>provides a hint or example to the user</b> about
+                        what to enter in the input field.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>placeholder</b> attribute user ko input field mein kya dalna hai, iski <b>ek misaal
+                            ya hint deta hai</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form&gt;
+    &lt;input type="text" placeholder="Enter your name"&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="6">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;center&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;center&gt;</b> tag is used to <b>center-align content</b>. However, it is now
+                        considered obsolete in HTML5 and CSS is recommended for centering content.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote></b>&lt;center&gt;</b> tag <b>content ko center mein align karta tha</b>, lekin HTML5
+                        mein yeh tag obsolete ho chuka hai, aur ab content ko center karne ke liye CSS use karna
+                        chahiye.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;center&gt;
+    &lt;h1&gt;
+        This is centered text
+    &lt;/h1&gt;
+&lt;/center&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="7">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;fieldset&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;fieldset&gt;</b> tag is <b>used to group related elements within a form</b>.
+                        It is often used to visually group sections of a form.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;fieldset&gt;</b> tag <b>form ke andar related elements ko group karne ke liye use
+                            hota hai</b>. Yeh aksar form ke sections ko visually group karne ke liye istemal hota hai.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;
+            Personal Information
+        &lt;/legend&gt;
+        Name: &lt;input type="text"&gt;
+        Age: &lt;input type="number"&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="8">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;legend&gt; element tag of &lt;fieldset&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;legend&gt;</b> tag is <b>used to provide a caption or title for the
+                            &lt;fieldset&gt; element</b>, helping to explain the content inside the group.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;legend&gt;</b> tag <b>&lt;fieldset&gt; element ke liye ek title ya caption
+                            provide karta hai</b>, jo andar ke content ko explain karta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;
+            Contact Information
+        &lt;/legend&gt;
+        Email: &lt;input type="email"&gt;
+        Phone: &lt;input type="tel"&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
