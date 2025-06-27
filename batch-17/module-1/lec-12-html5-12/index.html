@@ -6,183 +6,349 @@
 </head>
 
 <body>
-    <h1>Lecture-12</h1>
+    <h1>HTML5 Video & Media Embedding</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">Every element have any by default CSS property in HTML5
+        </option>
+        <option value="#2">&lt;favicon&gt; element tag of HTML5</option>
+        <option value="#3">&lt;iframe&gt; element tag of HTML5</option>
+        <option value="#4">What is embed link</option>
+        <option value="#5">&lt;video&gt; element tag in HTML5</option>
+        <option value="#6">&lt;source&gt; element tag of &lt;video&gt; element tag in
+            HTML5</option>
+        <option value="#7">src attribute of &lt;source&gt; element tag of &lt;video&gt;
+            element tag in HTML5</option>
+        <option value="#8">controls attribute of &lt;video&gt; element tag in HTML5
+        </option>
+        <option value="#9">muted attribute of &lt;video&gt; element tag in HTML5
+        </option>
+        <option value="#10">loop attribute of &lt;video&gt; element tag in HTML5
+        </option>
+        <option value="#11">poster attribute of &lt;video&gt; element tag in HTML5
+        </option>
     </select>
     <dl>
         <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• Every element have any by default CSS property in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>In HTML5, <b>every element comes with default CSS properties assigned by the
+                            browser</b>. These properties include things like font size, color, margins, padding, etc.
+                        Although these styles can be overridden with custom CSS, the default styles determine the
+                        initial look of elements on a webpage.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML5 mein <b>har element ke saath browser se default CSS properties hoti hain</b>,
+                        jisme font size, color, margins, padding waghera shamil hoti hain. Yeh properties customize CSS
+                        se replace ki ja sakti hain, lekin default styles webpage ke elements ka initial look tay karte
+                        hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Default CSS Properties Example&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;This is a paragraph with default styles.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;favicon&gt; element tag of HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;favicon&gt;</b> tag is used to define a shortcut icon for the webpage. It is
+                        typically displayed in the browser tab or bookmark bar. However, the <b>&lt;favicon&gt;</b> tag
+                        itself is not part of HTML5. Instead, the link to the favicon is added using a &lt;link&gt; tag.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;favicon&gt;</b> tag ka use webpage ke liye shortcut icon define karne ke liye
+                        hota hai. Yeh icon browser tab ya bookmark bar mein dikhai deta hai. Lekin,
+                        <b>&lt;favicon&gt;</b> tag HTML5 ka hissa nahi hai, isliye isko &lt;link&gt; tag ke zariye add
+                        kiya jata hai.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;link rel="icon" href="favicon.ico" type="image/x-icon"&gt;
+        &lt;title&gt;Favicon Example&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Check the tab for the favicon!&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;iframe&gt; element tag of HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;iframe&gt;</b> tag is used to embed another HTML document inside the current
+                        webpage. It allows you to display content such as videos, maps, or other web pages without
+                        leaving the current page.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;iframe&gt;</b> tag ka use kisi aur HTML document ko apne webpage mein embed karne
+                        ke liye hota hai. Isse aap videos, maps, ya doosri web pages ko bina page chhode display kar
+                        sakte hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;iframe src="https://www.example.com" width="600" height="400"&gt;&lt;/iframe&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="4">
             <hr />
-            <h3>• :</h3>
+            <h3>• What is embed link:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>An <b>embed link is a URL that allows embedding content</b>, such as <b>videos</b>,
+                        <b>maps</b>, or other <b>interactive media</b>, directly into a webpage. It is typically used
+                        with tags like &lt;iframe&gt;, &lt;embed&gt;, or &lt;object&gt;.
+                    </blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>Embed link ek URL hota hai jo kisi content ko direct webpage mein embed karne ke liye
+                            use hota hai</b>, jaise <b>videos</b>, <b>maps</b>, ya <b>interactive media</b>. Yeh zyada
+                        tar &lt;iframe&gt;, &lt;embed&gt;, ya &lt;object&gt; tags ke sath use hota hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;iframe src="https://www.youtube.com/embed/example" width="560" height="315"&gt;&lt;/iframe&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="5">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;video&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;video&gt; element in HTML5 is used to embed video content directly into a
+                            webpage</b>. It supports multiple video formats and allows users to control playback with
+                        attributes like play, pause, volume, and fullscreen.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML5 ka <b>&lt;video&gt; element webpage mein video content embed karne ke liye use
+                            hota hai</b>. Yeh kai video formats ko support karta hai aur users ko playback control karne
+                        ke liye play, pause, volume, aur fullscreen jaise attributes provide karta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;video width="320" height="240" controls&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="6">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;source&gt; element tag of &lt;video&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>&lt;source&gt; element is used inside the &lt;video&gt; tag to specify multiple
+                            video files for the browser to choose from</b>. It allows you to offer different video
+                        formats to ensure compatibility across browsers.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;source&gt; element &lt;video&gt; tag ke andar use hota hai jisme aap multiple
+                            video files specify kar sakte hain taake browser apne compatible format ko choose kar
+                            sake</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;video controls&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+    &lt;source src="movie.ogv" type="video/ogg"&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="7">
             <hr />
-            <h3>• :</h3>
+            <h3>• src attribute of &lt;source&gt; element tag of &lt;video&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>The src attribute in the &lt;source&gt; element specifies the path to the video
+                            file</b>. This tells the browser where to find the media to be played.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>src attribute &lt;source&gt; element mein video file ka path specify karta hai</b>,
+                        jo browser ko yeh batata hai ke media kahan se play karna hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;video controls&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="8">
             <hr />
-            <h3>• :</h3>
+            <h3>• controls attribute of &lt;video&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>controls</b> attribute is added to the &lt;video&gt; element, not the
+                        &lt;source&gt; element. <b>It provides the user with playback controls, such as play, pause,
+                            volume, and fullscreen options</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>controls</b> attribute &lt;video&gt; element ke saath use hota hai, &lt;source&gt;
+                        element mein nahi. <b>Yeh user ko playback controls provide karta hai, jaise play, pause,
+                            volume, aur fullscreen options</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;video controls&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="9">
+            <hr />
+            <h3>• muted attribute of &lt;video&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>The muted attribute in the &lt;video&gt; element silences the audio of the video</b>.
+                        It is often used for autoplaying videos where sound is not needed.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>muted attribute &lt;video&gt; element mein use hota hai jo video ka audio mute kar
+                            deta hai</b>. Yeh zyada tar autoplay videos mein use hota hai jahan awaaz ki zaroorat nahi
+                        hoti.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;video muted autoplay&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="10">
+            <hr />
+            <h3>• loop attribute of &lt;video&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote>The <b>loop</b> attribute causes the video to automatically restart once it ends,
+                        providing continuous playback.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>loop</b> attribute video ko automatically restart karne ke liye hota hai jab video
+                        khatam ho jata hai, taake continuous playback ho sake.</blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;video loop&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
+                    </blockquote>
+                </li>
+            </ul>
+        </dd>
+        <dt id="11">
+            <hr />
+            <h3>• poster attribute of &lt;video&gt; element tag in HTML5:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>
+                    <h5>English Description:</h5>
+                    <blockquote><b>The poster attribute specifies an image to be shown before the video starts
+                            playing</b>. This image appears as a placeholder while the video is loading.</blockquote>
+                </li>
+                <li>
+                    <h5>Roman Urdu Description:</h5>
+                    <blockquote><b>poster attribute ek image specify karta hai jo video ke play hone se pehle dikhayi
+                            deti hai</b>. Yeh image video load hone tak placeholder ki tarah kaam karti hai.
+                    </blockquote>
+                </li>
+                <li>
+                    <h5>Example Code:</h5>
+                    <blockquote>
+                        <pre><code>&lt;video poster="poster-image.jpg"&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
