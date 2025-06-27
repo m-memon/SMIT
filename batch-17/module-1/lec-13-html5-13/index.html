@@ -6,183 +6,240 @@
 </head>
 
 <body>
-    <h1>Lecture-13</h1>
+    <h1>HTML5 Form Attributes</h1>
     <select onchange="location = this.value;">
         <option selected disabled>Notes</option>
+        <option value="#1">&lt;textarea&gt; element tag of &lt;form&gt; element tag in
+            HTML5</option>
+        <option value="#2">cols attribute of &lt;textarea&gt; element tag of
+            &lt;form&gt; element tag in HTML5</option>
+        <option value="#3">rows attribute of &lt;textarea&gt; element tag of
+            &lt;form&gt; element tag in HTML5</option>
+        <option value="#4">hidden attribute of &lt;input /&gt; element tag of
+            &lt;form&gt; element tag in HTML5</option>
+        <option value="#5">disabled attribute of &lt;option&gt; element tag of
+            &lt;select&gt; element tag of &lt;form&gt; element tag in HTML5</option>
+        <option value="#6">selected attribute of &lt;option&gt; element tag of
+            &lt;select&gt; element tag of &lt;form&gt; element tag in HTML5</option>
+        <option value="#7">multiple attribute of &lt;select&gt; element tag of
+            &lt;form&gt; element tag in HTML5</option>
+        <option value="#8">How to comment in HTML5</option>
     </select>
     <dl>
         <dt id="1">
             <hr />
-            <h3>• :</h3>
+            <h3>• &lt;textarea&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>The &lt;textarea&gt; element is used to create a multi-line text input field within a
+                            &lt;form&gt; in HTML5</b>. It allows users to enter large amounts of text, such as comments
+                        or feedback.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>&lt;textarea&gt; element ko HTML5 mein &lt;form&gt; ke andar multi-line text input
+                            field banane ke liye use kiya jata hai</b>. Is se users ko zyada text daalne ka mauka milta
+                        hai, jaise comments ya feedback.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form&gt;
+    &lt;label for="feedback"&gt;Feedback:&lt;/label&gt;
+    &lt;textarea id="feedback" name="feedback" rows="4" cols="50"&gt;&lt;/textarea&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="2">
             <hr />
-            <h3>• :</h3>
+            <h3>• cols attribute of &lt;textarea&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>The cols attribute specifies the visible width of a &lt;textarea&gt; element in terms
+                            of character columns</b>. It controls how many characters can fit in one line.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>cols attribute &lt;textarea&gt; element ki visible width ko character columns ke
+                            hisaab se specify karta hai</b>. Yeh decide karta hai ke ek line mein kitne characters fit
+                        ho sakte hain.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;textarea cols="50" rows="4"&gt;&lt;/textarea&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="3">
             <hr />
-            <h3>• :</h3>
+            <h3>• rows attribute of &lt;textarea&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>rows</b> attribute defines the visible height of the &lt;textarea&gt; element by
+                        specifying how many lines of text it should display.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>rows</b> attribute &lt;textarea&gt; element ki visible height ko define karta hai,
+                        jisme yeh specify kiya jata hai ke kitni lines of text display honi chahiye.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;textarea rows="6" cols="50"&gt;&lt;/textarea&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="4">
             <hr />
-            <h3>• :</h3>
+            <h3>• hidden attribute of &lt;input /&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>The hidden attribute can be added to an &lt;input /&gt; element to hide it from the
+                            user interface</b>. This makes the input element not visible on the page, but it still
+                        exists in the form.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>hidden attribute &lt;input /&gt; element mein add karke usko user interface se hide
+                            kiya ja sakta hai</b>. Is se input element page par nazar nahi aata, lekin form mein still
+                        exist karta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;form&gt;
+    &lt;input type="hidden" name="user_id" value="12345"&gt;
+&lt;/form&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="5">
             <hr />
-            <h3>• :</h3>
+            <h3>• disabled attribute of &lt;option&gt; element tag of &lt;select&gt; element tag of &lt;form&gt; element
+                tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>disabled</b> attribute in the &lt;option&gt; element of a &lt;select&gt; dropdown
+                        disables the option, <b>making it unselectable by the user</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>disabled</b> attribute &lt;select&gt; dropdown ke &lt;option&gt; element mein option
+                        ko disable kar deta hai, <b>jisse user usko select nahi kar sakta</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;select&gt;
+    &lt;option value="1"&gt;Option 1&lt;/option&gt;
+    &lt;option value="2" disabled&gt;Option 2 (Disabled)&lt;/option&gt;
+    &lt;option value="3"&gt;Option 3&lt;/option&gt;
+&lt;/select&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="6">
             <hr />
-            <h3>• :</h3>
+            <h3>• selected attribute of &lt;option&gt; element tag of &lt;select&gt; element tag of &lt;form&gt; element
+                tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>selected</b> attribute is used to <b>pre-select</b> an option in a dropdown menu
+                        within a &lt;select&gt; element.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>selected</b> attribute &lt;select&gt; dropdown menu mein kisi option ko <b>pehle se
+                            select karne ke liye use hota hai</b>.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;select&gt;
+    &lt;option value="1"&gt;Option 1&lt;/option&gt;
+    &lt;option value="2" selected&gt;Option 2 (Selected)&lt;/option&gt;
+    &lt;option value="3"&gt;Option 3&lt;/option&gt;
+&lt;/select&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="7">
             <hr />
-            <h3>• :</h3>
+            <h3>• multiple attribute of &lt;select&gt; element tag of &lt;form&gt; element tag in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>The <b>multiple</b> attribute allows the user to select more than one option from a
+                        dropdown menu.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote><b>multiple</b> attribute user ko dropdown menu se ek se zyada options select karne ki
+                        ijazat deta hai.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;select multiple&gt;
+    &lt;option value="1"&gt;Option 1&lt;/option&gt;
+    &lt;option value="2"&gt;Option 2&lt;/option&gt;
+    &lt;option value="3"&gt;Option 3&lt;/option&gt;
+&lt;/select&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
         </dd>
         <dt id="8">
             <hr />
-            <h3>• :</h3>
+            <h3>• How to comment in HTML5:</h3>
         </dt>
         <dd>
             <ul>
                 <li>
                     <h5>English Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>In HTML5, <b>comments</b> are written between &lt;!-- and --&gt; tags. Anything between
+                        these tags is ignored by the browser and does not appear on the webpage.</blockquote>
                 </li>
                 <li>
                     <h5>Roman Urdu Description:</h5>
-                    <blockquote></blockquote>
+                    <blockquote>HTML5 mein <b>comments</b> &lt;!-- aur --&gt; tags ke beech likhe jate hain. In tags ke
+                        beech ka content browser ignore karta hai aur webpage par nahi dikhai deta.</blockquote>
                 </li>
                 <li>
                     <h5>Example Code:</h5>
                     <blockquote>
-                        <pre><code></code></pre>
+                        <pre><code>&lt;!-- This is a comment --&gt;
+&lt;p&gt;This is a visible text.&lt;/p&gt;
+&lt;!-- This paragraph is commented out --&gt;</code></pre>
                     </blockquote>
                 </li>
             </ul>
