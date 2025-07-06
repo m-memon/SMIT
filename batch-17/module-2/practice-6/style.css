@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "robotic";
+    src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "robotic";
+    background: #4CAF50;
+    background: linear-gradient(135deg, rgba(76, 175, 80, 1) 0%, rgba(248, 187, 208, 1) 25%, rgba(100, 181, 246, 1) 50%, rgba(156, 77, 151, 1) 75%, rgba(255, 235, 59, 1) 100%);
+}
+
+div {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+form {
+
+    align-content: start;
+    align-items: start;
+    text-align: start;
+    margin: auto;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    display: inline-block;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-logo {
+    display: block;
+    padding: 50px;
+    object-fit: cover;
+    height: 150px;
+    width: 300px;
+}
+
+h3 {
+    display: inline-block;
+    padding-left: 75px;
+    margin-bottom: 25px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.div2 {
+    display: inline-block;
+    display: flex;
+    align-content: center;
+    padding-left: 40px;
+    height: 36px;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    padding: 3px 14px 3px 3px;
+    height: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+    /* Space for the eye icon */
+}
+
+/* Eye icon inside the input field */
+.visibility-icon {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.visibility-icon:hover {
+    opacity: 1;
+}
+
+.text-field {
+    background-color: transparent;
+    height: 36px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    position: relative;
+    left: 1px;
+    top: 1px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: transparent;
+    height: 36px;
+    width: 222px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #95a5a6;
+    outline: 0px;
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border: 1px solid #2c3e50;
+    outline: 0px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 1px solid #2c3e50;
+    outline: 0.5px solid rgba(156, 77, 151, 1);
+}
+
+input[type="email"]:active,
+input[type="password"]:active {
+    border: 1px solid #2c3e50;
+    outline: 0.5px solid rgba(156, 77, 151, 1);
+}
+
+.div3 {
+    display: inline-block;
+    display: flex;
+    align-content: center;
+    height: 36px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 43px;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 36px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #bdc3c7;
+    margin: 43px 0px 0px 75px;
+    font-size: 14px;
+    color: rgba(156, 77, 151, 1);
+    cursor: pointer;
+    border: 0px;
+    outline: 0px;
+}
+
+
+input[type="submit"]:hover {
+    box-shadow: 4px 4px 2px #95a5a6;
+}
+
+input[type="submit"]:focus {
+    box-shadow: 4px 4px 2px #bdc3c7;
+    opacity: 0.7;
+}
+
+input[type="submit"]:active {
+    box-shadow: 4px 4px 2px #bdc3c7;
+}
+
+/* Checkbox container for layout and click area */
+.checkbox-container {
+    position: relative;
+    align-content: center;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 35px;
+    padding-left: 30px;
+    margin-left: 14px;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+}
+
+/* Hide the native checkbox */
+.checkbox-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+/* Custom checkbox appearance */
+.custom-check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #95a5a6;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+/* Show checkmark when checked */
+.checkbox-container input:checked+.custom-check::after {
+    content: "✓";
+    position: absolute;
+    left: 4px;
+    top: 0;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+
+.custom-check:hover {
+    border: 1px solid #2c3e50;
+}
+
+.checkbox-container input:focus+.custom-check {
+    border: 1px solid #2c3e50;
+    outline: 0.5px solid rgba(156, 77, 151, 1);
+}
+
+.checkbox-container input:active+.custom-check {
+    border: 1px solid #2c3e50;
+    outline: 0.5px solid rgba(156, 77, 151, 1);
+}
